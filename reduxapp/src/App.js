@@ -1,17 +1,8 @@
 import './App.css';
-
+import TodoApp from './component/TodoApp'
 function App() {
   return (
-    <div>
-      <div>
-        <h1>
-          add yout text
-        </h1>
-      </div>
-      <div>
-
-      </div>
-    </div>
+    <TodoApp />
   );
 }
 
